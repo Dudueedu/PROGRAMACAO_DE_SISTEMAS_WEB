@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layouts</title>
+    <style>
+
+    .menu{
+        background-color: aqua;
+        height: 80px;
+        border: 2px solid black;
+    }
+
+    .secao{
+        display: flex;
+    }
+
+    .esquerda{
+        background-color: aqua;
+        height: 500px;
+        border: 2px solid black;
+        width: 30%;
+        }
+    
+    .direita{
+        background-color: aqua;
+        height: 500px;
+        border: 1px solid black;
+        width: 70%;
+    }
+
+    .empilha{
+        background-color: red;
+        height: 98px;
+        border: 2px solid black;
+
+
+    }
+
+    #cima{
+        background-color: red;
+        height: 248px;
+        border: 2px solid black;
+    }
+
+    #baixo{
+        background-color: blue;
+        height: 248px;
+        border: 2px solid black;
+    }
+
+    #roda{
+        background-color: aqua;
+        height: 80px;
+        border: 2px solid black;
+    }
+
+    </style>
+</head>
+<body>
+   
+    <div class="menu">
+
+    </div>
+
+    <div class="secao">
+         <div class="esquerda">
+            <div class="empilha"></div>
+            <div class="empilha"></div>
+            <div class="empilha"></div>
+            <div class="empilha"></div>
+            <div class="empilha"></div>
+        </div>
+
+        <div class="direita">
+            <div id="cima"></div>
+            <div id="baixo"></div>
+        </div>
+    </div>
+
+    <div id="roda"></div>
+
+   
+</body>
+</html>

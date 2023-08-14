@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <img src="./Imagens/logoeuamopets.svg" alt="Logotipo">
+        <ul>
+            <li> <a href="index.html" target="_blank" class="a">Home </a> </li>
+            <li> <a href="produtos.html" target="_blank" class="a">Produtos</a></li>
+            <li> <a href="depoimentos.html" target="_blank" class="a">Depoimentos</a></li>
+        </ul>
+        <a href="./contato.html" ><button class="button">Contato</button></a>
+    </nav>
+
+    <h1 class="H11">Cadastro de clientes</h1>
+    <br>
+    <form action="recebe.php">
+        <label for="nomeCompleto">Nome completo:</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+
+        <label for="RG">RG:</label>
+        <input type="text" id="RG" name="RG" required>
+
+        <label for="RG">CPF:</label>
+        <input type="text" id="CPF" name="CPF" required>
+
+        <LABel for="email">E-mail:</LABel>
+        <input type="email" name="email" id="email" required>
+
+        <LABel for="tel">Telefone:</LABel>
+        <input type="tel" name="tel" id="tel" required>
+
+        <LABel for="nomeMae">nome da mãe:</LABel>
+        <input type="text" name="nomeMae" id="nomeMae" required>
+
+        <label for="tituloEleitor">Titulo de eleitor:</label>
+        <input type="text" id="tituloEleitor" name="tituloEleitor" id="tituloEleitor" required>
+        
+        <LABel for="date">Data:</LABel>
+        <input type="date" name="date" id="date" required>
+
+        <LABel for="localNascimento">Local de nascimento:</LABel>
+        <input type="text" name="localNascimento" id="localNascimento" required>
+    
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+    </form><br> <br> <br>
+
+</body>
+</html>

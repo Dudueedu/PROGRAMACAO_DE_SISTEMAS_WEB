@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+
+#cabecalho{
+    text-align: center;
+}
+#cabecalho2{
+    text-align: center;
+
+}
+#cabecalho3{
+    text-align: center;
+}
+
+#cabecalho4{
+    text-align: center;
+
+} 
+
+.Listas{
+    text-align: left;
+    list-style-type: none;
+    margin-left: 40%;
+}
+
+.Listas2{
+    text-align: left;
+    list-style-image: url(./Sem\ título.png);
+    list-style-position: inside;
+    margin-left: 40%;
+}

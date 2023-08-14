@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+/* Reset do CSS */
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --nav-bg-color: black;
+    --nav-text-color: white;
+    --button-bg-color:  rgb(77, 77, 245);
+    --button-text-color: white;
+    --a-text-color: white;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(194, 248, 230);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    padding: 0 2.4rem;
+    height: 10rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.button{
+    padding: 1rem 1.6rem;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border-radius: 0.8rem;
+}
+
+.a{
+    text-decoration: none;
+    color: var(--a-text-color);
+}
+
+.a:hover{
+    background-color: white;
+    color:  black;
+    padding: 1rem 1.6rem;
+}
+
+#h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    color: white;
+    height: 9rem;
+}
+
+.h2{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.conteiner{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.video{
+    text-align: center;
+}
+
+iframe{
+    border: 0.3rem solid black;
+}
+
+.content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.title2{
+    text-align: center;
+    font-size: 6rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    color: white;
+    height: 9rem;
+}
+
+.img{
+    margin-top: 2rem;
+    width: 30rem;
+    height: 30rem;
+    
+}
+
+.descricao{
+    text-align: center;
+}
+
+.poxa{
+    border: 2px solid black;
+}
+
+.H11{
+    text-align: center;
+    font-size: 6rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    color: white;
+    height: 9rem;
+}
+
+form{
+    max-width: 60rem;
+    margin: auto;
+    padding: 2rem;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+label{
+    margin-top: 5px;
+}
+
+button{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

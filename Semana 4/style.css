@@ -1,0 +1,43 @@
+p{
+    background-color: aqua;
+    
+}
+
+ul{
+    background-color: red;
+
+    /* flexibiliza os elementos */
+    display: flex;
+
+    /* texto horizontal */
+    /* justify-content: space-around ;   */
+    /* justify-content: space-between;  */
+    justify-content: space-evenly; 
+
+}
+
+.pai{
+    background-color: blue;
+    /* width: 200px; */
+    height: 60px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* vertical */
+    align-items: center;
+}
+
+.filhas{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+
+    /* alinhamento interno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

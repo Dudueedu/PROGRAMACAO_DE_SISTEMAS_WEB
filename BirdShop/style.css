@@ -1,0 +1,359 @@
+/* Reset do CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #95f0e1;
+}
+
+
+
+/* nav */
+
+header{
+    position:sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff9f12;
+    padding: 0 2.4rem;
+    height: 10rem;
+    width: 100%;
+}
+
+.logo{
+    height: 15rem;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navlink{
+    padding: 1rem 1.6rem;
+    background-color: #95f0e1;
+    color: black;
+    border-radius: 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.navlink:hover{
+    padding: 1.4rem 2rem;
+    background-color: #ff9f12;
+}
+
+
+
+/* Home */
+
+.h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.link_vendas{
+    margin: auto;
+    max-width: 80%;
+    border: 1px solid black;
+    border-radius: 2rem;
+    height: 30rem;
+    margin-top: 4rem;
+    background-image: url(./Assets/banner.jpg);
+    background-size: cover;
+    
+}
+
+.vendas{
+    margin-right: 3rem;
+}
+
+.passaros_link{
+    position: absolute;
+    top: 27vh;
+    right: 18vw;
+}
+
+.para_home1{
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.text_home1{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem 1.3rem;
+    margin: 2rem;
+}
+
+.h2_home1{
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.list_home1{
+    padding: 0.5rem 3.5rem;
+}
+
+/* Passaros */
+
+.main_bird{
+    max-width: 70%;
+    margin: auto;
+
+}
+
+.birds{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bird_imgs{
+    background-color: white;
+    border-radius: 20px;
+    width: 35rem;
+    height: 50rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.bird_img{
+    width: 30rem;
+    border-radius: 50%;
+}
+
+h4{
+    margin-bottom: 5rem;
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buy_button{
+    padding: 1rem 1.6rem;
+    background-color: #95f0e1;
+    color: black;
+    border-radius: 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+    
+}
+
+.buy_button:hover{
+    padding: 1.4rem 2rem;
+    background-color: #ff9f12;
+    
+}
+
+/* Documentos */
+
+.docs{
+    max-width: 80%;
+    margin: auto;
+}
+
+.text_docs{
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.para_docs{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem 1.3rem;
+    margin: 2rem;
+    text-align: justify;
+}
+
+.list_docs{
+    padding: 0.5rem 8rem;
+
+}
+
+/* Depoimentos */
+
+.deps{
+    max-width: 80%;
+    margin: auto;
+    padding: 2rem;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+.depoimento{
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+}
+
+.depoimento p{
+    font-size: 1.6rem;
+}
+
+.depoimento li{
+    font-size: 1.3rem;
+    
+}
+
+.deixe_deps{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.deixe_deps h3{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+}
+
+/* contato */
+
+
+form{
+    max-width: 60rem;
+    margin: auto;
+    padding: 2rem;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input, textarea{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+textarea{
+    resize:vertical;
+    min-height: 150px;
+}
+
+label{
+    margin-top: 5px;
+}
+
+.buttoncontato{
+    background-color: #95f0e1;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buttoncontato:hover{
+    background-color: #ff9f12;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="file"]{
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="file"]::file-selector-button{
+    background-color: #95f0e1;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="file"]::file-selector-button:hover{
+    background-color: #ff9f12;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.contact_us{
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.contatos{
+    background-color: white;
+    padding: 50px;
+    max-width: 60rem;
+    margin: auto;
+    padding: 2rem;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.a_contatos{
+    color: #ff9f12;
+}
+
+.a_contatos:hover{
+    color: #95f0e1;
+}
+
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #ff9f12;
+    margin-top: 3rem;
+    
+}
+
+.text_footer{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin: auto;
+    max-width: 80%;
+    font-size: 1.3rem;
+    padding: 2rem;
+}

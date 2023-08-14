@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Shop - Contatos</title>
+    <link rel="icon" type="icon" href="./Assets/bird_icon.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header> 
+        <nav>
+            <img class="logo" src="./Assets/Bird_Shop_logo.png">
+            <ul>
+                <li><a href="./index.html" class="navlink" target="_blank">Home</a></li>
+                <li><a href="./passaros.html" class="navlink" target="_blank">Pássaros</a></li>
+                <li><a href="./documentos.html" class="navlink" target="_blank">Documentos</a></li>
+                <li><a href="./depoimentos.html" class="navlink" target="_blank">Depoimentos</a></li>
+            </ul>
+            <a href="./contato.html" class="navlink" >Contato</a>
+        </nav>
+    </header>
+
+    <h1 class="h1">Pré cadastro de clientes</h1>
+    <br>
+    <form method="post" action="recebe.php">
+        <label for="nomeCompleto">Nome completo:</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+
+        <label for="RG">RG:</label>
+        <input type="text" id="RG" name="RG" required>
+
+        <label for="RG">CPF:</label>
+        <input type="text" id="CPF" name="CPF" required>
+
+        <LABel for="email">E-mail:</LABel>
+        <input type="email" name="email" id="email" required>
+
+        <LABel for="tel">Telefone:</LABel>
+        <input type="tel" name="tel" id="tel" required>
+
+        <LABel for="nomeMae">Endereço:</LABel>
+        <input type="text" name="nomeMae" id="nomeMae" required>
+
+        <label for="tituloEleitor">Titulo de eleitor:</label>
+        <input type="text" id="tituloEleitor" name="tituloEleitor" id="tituloEleitor" required>
+        
+        <LABel for="date">Data de nascimento:</LABel>
+        <input type="date" name="date" id="date" required>
+
+        <LABel for="localNascimento">Local de nascimento:</LABel>
+        <input type="text" name="localNascimento" id="localNascimento" required>
+
+        <label for="passaro">Descreva em um breve texto o porque você gostaria de ter um pássaro da fauna brasileira? </label>
+        <textarea name="Passaro" id="birdrequirement" required></textarea>
+
+        <LABel class="labelfile" for="file">Imposto de renda:</LABel>
+        <input type="file" name="file" id="file" required>
+    
+        <button type="reset" class="buttoncontato">Limpar</button>
+        <button type="submit" class="buttoncontato">Enviar</button>
+    </form> <br><br>
+
+    <section class="contact_us">
+        <h2 >Entre em contato</h2>
+        <div class="contatos">
+        <p>Email: <a class="a_contatos" href="mailto:contato@birdshop.com">contato@birdshop.com</a></p>
+        <p>Telefone: <a class="a_contatos" href="tel:19999999999">(19) 99999-9999</a></p></div>
+    </section>
+    
+</body>
+</html>

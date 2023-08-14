@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Sora&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+ padding: 0px; 
+ margin: 0px;  
+ box-sizing: border-box;
+}
+
+:root{
+font-size: 62,5%;
+--nav-bg-color:#23232e;
+--nav-text-color: white;
+}
+
+ul{  
+    display: flex; 
+    list-style: none; 
+}
+
+button{
+    
+    padding: 1rem 2,7rem;
+    background-color:#23232e;
+    color: white;
+    border-radius: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.TextoGPT{
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 80%;
+    height: 220px;
+    border: 2px solid #23232e;
+    display: flex;
+    border-radius: 20px ;
+}
+
+h2 {
+
+    text-align: center;
+    font-size: 17px; 
+    padding: 1rem; 
+    margin-bottom: 2rem; 
+    height: 10rem; 
+}
+label{
+    margin-top: 1rem;
+}
+
+form{
+    max-width: 80%; 
+    margin: auto;
+    margin-top: 40px;
+    padding: 1rem; 
+    border: 6px solid ;
+    color: white;
+    border-radius: 1rem;
+    display: flex; 
+    flex-direction: column;
+    gap: 0,5rem;
+    background-color: #23232e;
+}
+input{
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.button2{
+    padding: 1rem 1,6rem; 
+    color: blue;
+    border-radius: 0.8rem;
+}
+
+.button_cad{
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.button_cad:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    margin-top: 80px;
+}
